@@ -1,4 +1,4 @@
-const api = require('RestApiSender.js');
+const api = require('./RestApiSender');
 
 listAllFnb();
 

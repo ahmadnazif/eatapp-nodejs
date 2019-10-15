@@ -1,7 +1,7 @@
 var api = require('axios').default.create({
     baseURL: 'https://eatapi-254203.appspot.com'
 });
-const sr = require('SimpleResp');
+const sr = require('./SimpleResp');
 
 var methods = {
     addFnbAsync: async function (fnbName, fnbType) {
