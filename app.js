@@ -1,8 +1,9 @@
 const api = require('./RestApiSender');
 
+//addFnb('Kerepek pisang', 'Food');
 listAllFnb();
 
-async function add(fnbName, fnbType) {
+async function addFnb(fnbName, fnbType) {
     try{
     var resp = await api.addFnbAsync(fnbName, fnbType);    
     console.log(resp);

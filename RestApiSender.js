@@ -16,7 +16,7 @@ var methods = {
             var resp = await api.post('api/fnb/add', data);
             sr.statusCode = resp.status;
             sr.responseContentString = resp.data;
-            //sr.length = 100;
+            sr.length = 0;
             sr.error = null;
         } catch (ex) {
             sr.error = ex;
